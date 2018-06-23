@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
-options: "3be9e1582735197361903d912d371b16"
-build_time: [1527822358, 633938000]
-inputs:
-  "/Users/gabrielcortinas/Desktop/Xcode Examples/NewsForYou/weather/MyWeatherVersion/MyWeatherVersionUITests/MyWeatherVersionUITests.swift": !dirty [1527822358, 0]

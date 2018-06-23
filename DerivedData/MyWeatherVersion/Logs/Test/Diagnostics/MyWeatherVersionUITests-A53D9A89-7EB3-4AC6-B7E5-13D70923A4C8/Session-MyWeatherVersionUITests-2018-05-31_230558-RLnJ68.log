@@ -1,8 +1,0 @@
-23:05:58.327 Xcode[238:1976] Beginning test session MyWeatherVersionUITests-CB93D10C-6785-4779-A057-95B9FC6B24DF at 2018-05-31 23:05:58.326 with Xcode 9F1027a on target <DVTiPhoneSimulator: 0x7fe70e153110> {
-		SimDevice: iPhone 8 Plus (C88FBC94-57B3-44EE-AB8B-F335396179AA, iOS 11.4, Booted)
-} (11.4 (15F79))
-23:05:58.327 Xcode[238:1976] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
-23:05:58.327 Xcode[238:1976] Test standard output and standard error is at /var/folders/57/wgbgzwt95b7d7qdvn2d9ff340000gn/T/com.apple.dt.XCTest/IDETestRunSession-7ACCB4D5-83B3-4E5B-B8EF-0BCA9997F35F/MyWeatherVersionUITests-A53D9A89-7EB3-4AC6-B7E5-13D70923A4C8/StandardOutputAndStandardError.txt
-23:05:58.337 Xcode[238:1976] Simulator C88FBC94-57B3-44EE-AB8B-F335396179AA was claimed by TestSessionClaim_IDETestRunSession-7ACCB4D5-83B3-4E5B-B8EF-0BCA9997F35F
-23:05:59.347 Xcode[238:1976] Test operation failure: Test operation was canceled.
-23:05:59.347 Xcode[238:1976] _finishWithError:Error Domain=IDETestOperationsObserverErrorDomain Code=14 "Test operation was canceled." UserInfo={NSLocalizedDescription=Test operation was canceled.}

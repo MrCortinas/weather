@@ -1,0 +1,583 @@
+21:51:46.558 Xcode[238:1976] Beginning test session MyWeatherVersionUITests-1F735760-17B2-4A15-99C7-8C7497589423 at 2018-05-31 21:51:46.558 with Xcode 9F1027a on target <DVTiPhoneSimulator: 0x7fe70e153110> {
+		SimDevice: iPhone 8 Plus (C88FBC94-57B3-44EE-AB8B-F335396179AA, iOS 11.4, Booted)
+} (11.4 (15F79))
+21:51:46.558 Xcode[238:1976] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+21:51:46.558 Xcode[238:1976] Test standard output and standard error is at /var/folders/57/wgbgzwt95b7d7qdvn2d9ff340000gn/T/com.apple.dt.XCTest/IDETestRunSession-F06E220B-1CC0-495E-AB41-AE1A791293B5/MyWeatherVersionUITests-1DA361F7-A629-42C0-97F5-86DA581B5CE6/StandardOutputAndStandardError.txt
+21:51:46.568 Xcode[238:1976] Simulator C88FBC94-57B3-44EE-AB8B-F335396179AA was claimed by TestSessionClaim_IDETestRunSession-F06E220B-1CC0-495E-AB41-AE1A791293B5
+21:51:51.631 Xcode[238:1976] Launch session started.
+21:51:51.657 Xcode[238:1976] Setting up test runner session
+21:51:51.657 Xcode[238:897716] Sim iPhone 8 Plus: Unregistering for sim device notification with token 97
+21:51:51.657 Xcode[238:897716] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+21:51:51.660 Xcode[238:897716] Sim iPhone 8 Plus has testmanagerd socket at /private/tmp/com.apple.launchd.66KO6ze2lx/com.apple.testmanagerd.unix-domain.socket
+21:51:51.660 Xcode[238:897716] Validating test connection socket path (/private/tmp/com.apple.launchd.66KO6ze2lx/com.apple.testmanagerd.unix-domain.socket)
+21:51:51.660 Xcode[238:897716] Constructing transport for test connection socket
+21:51:51.660 Xcode[238:897716] Connected socket 95 to testmanagerd for Sim iPhone 8 Plus
+21:51:51.660 Xcode[238:897716] Received connection for test runner session
+21:51:51.660 Xcode[238:897716] Listening for proxy connection request from the test bundle
+21:51:51.661 Xcode[238:897716] Initiating session with identifier: 1F735760-17B2-4A15-99C7-8C7497589423
+21:51:51.690 Xcode[238:1976] Received Ready from iOSSimulator
+21:51:51.690 Xcode[238:1976] Sending notification: NSConcreteNotification 0x7fe6fd5c2930 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "C88FBC94-57B3-44EE-AB8B-F335396179AA";
+}}
+21:51:51.691 Xcode[238:897764] Simulator C88FBC94-57B3-44EE-AB8B-F335396179AA was claimed by LaunchSessionClaim_0x7fe702a1f650
+21:51:51.693 Xcode[238:1976] Test runner session acquired connection.
+21:51:51.693 Xcode[238:1976] Waiting for test process to launch.
+21:51:51.705 Xcode[238:1976] Adding console adaptor <IDEConsoleAdaptor: 0x7fe700809ff0 'target' stdin: <IDEMasterPtyFileHandle: 0x7fe700a0f7b0 MasterFH: <NSConcreteFileHandle: 0x7fe700a49960> 97 SlaveFH: <NSConcreteFileHandle: 0x7fe7016e0500> 98> 97 stdout: <IDEMasterPtyFileHandle: 0x7fe700a0f7b0 MasterFH: <NSConcreteFileHandle: 0x7fe700a49960> 97 SlaveFH: <NSConcreteFileHandle: 0x7fe7016e0500> 98> 97 stderr: (null) 0> for test session 1F735760-17B2-4A15-99C7-8C7497589423.
+21:51:51.720 Xcode[238:1976] Received Ready from iOSSimulator
+21:51:51.720 Xcode[238:1976] Sending notification: NSConcreteNotification 0x7fe702b6a8b0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "C88FBC94-57B3-44EE-AB8B-F335396179AA";
+}}
+21:51:51.721 Xcode[238:897716] Simulator C88FBC94-57B3-44EE-AB8B-F335396179AA was claimed by LaunchSessionClaim_0x7fe702a1f650
+21:51:51.721 Xcode[238:897716] C88FBC94-57B3-44EE-AB8B-F335396179AA: Registered for sim device notification, got token 98
+21:51:51.722 Xcode[238:896724] C88FBC94-57B3-44EE-AB8B-F335396179AA: Unregistering for sim device notification with token 98
+21:51:51.722 Xcode[238:896724] C88FBC94-57B3-44EE-AB8B-F335396179AA: Installing app at path: /Users/gabrielcortinas/Desktop/Xcode Examples/NewsForYou/weather/MyWeatherVersion/DerivedData/MyWeatherVersion/Build/Products/Debug-iphonesimulator/MyWeatherVersionUITests-Runner.app and options: (null)
+21:51:51.756 Xcode[238:897837] Got reply to session initiation request with identifier 1F735760-17B2-4A15-99C7-8C7497589423 (result:error): 25: (null)
+21:51:52.399 Xcode[238:896724] C88FBC94-57B3-44EE-AB8B-F335396179AA: Installed app at path: /Users/gabrielcortinas/Desktop/Xcode Examples/NewsForYou/weather/MyWeatherVersion/DerivedData/MyWeatherVersion/Build/Products/Debug-iphonesimulator/MyWeatherVersionUITests-Runner.app and options: (null)
+21:51:52.399 Xcode[238:896724] C88FBC94-57B3-44EE-AB8B-F335396179AA: Launching app with identifier: com.apple.test.MyWeatherVersionUITests-Runner and options: {
+    "activate_suspended" = 0;
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Users/gabrielcortinas/Desktop/Xcode Examples/NewsForYou/weather/MyWeatherVersion/DerivedData/MyWeatherVersion/Build/Products/Debug-iphonesimulator:/Users/gabrielcortinas/Desktop/Xcode Examples/NewsForYou/weather/MyWeatherVersion/DerivedData/MyWeatherVersion/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/gabrielcortinas/Desktop/Xcode Examples/NewsForYou/weather/MyWeatherVersion/DerivedData/MyWeatherVersion/Build/Products/Debug-iphonesimulator:/Users/gabrielcortinas/Desktop/Xcode Examples/NewsForYou/weather/MyWeatherVersion/DerivedData/MyWeatherVersion/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+        "MTC_CRASH_ON_REPORT" = 1;
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/57/wgbgzwt95b7d7qdvn2d9ff340000gn/T/com.apple.dt.XCTest/IDETestRunSession-F06E220B-1CC0-495E-AB41-AE1A791293B5/MyWeatherVersionUITests-1DA361F7-A629-42C0-97F5-86DA581B5CE6/LaunchSessions/1F735760-17B2-4A15-99C7-8C7497589423/remote-container/tmp/MyWeatherVersionUITests-1F735760-17B2-4A15-99C7-8C7497589423.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/gabrielcortinas/Desktop/Xcode Examples/NewsForYou/weather/MyWeatherVersion/DerivedData/MyWeatherVersion/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/gabrielcortinas/Desktop/Xcode Examples/NewsForYou/weather/MyWeatherVersion/DerivedData/MyWeatherVersion/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/gabrielcortinas/Desktop/Xcode Examples/NewsForYou/weather/MyWeatherVersion/DerivedData/MyWeatherVersion/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys001";
+    stdout = "/dev/ttys001";
+    "wait_for_debugger" = 1;
+}
+21:51:54.666 Xcode[238:897837] C88FBC94-57B3-44EE-AB8B-F335396179AA: Launched app with identifier: com.apple.test.MyWeatherVersionUITests-Runner (pid = 13510)
+21:51:54.667 Xcode[238:897837] Tracking pid 13510 for simulator <DVTiPhoneSimulator: 0x7fe70e153110> {
+		SimDevice: iPhone 8 Plus (C88FBC94-57B3-44EE-AB8B-F335396179AA, iOS 11.4, Booted)
+}
+21:51:54.667 Xcode[238:897837] Checking to see if pid 13510 is valid: kill(pid, 0) = 0 (YES, it's still running)
+21:51:54.667 Xcode[238:897837] Setting up DVTTaskNotifyOnProcDeath for pid 13510
+21:51:54.667 Xcode[238:1976] Test process runnable PID is 13510.
+21:51:55.415 Xcode[238:1976] Waiting for test process to check in..., will wait up to 120s
+21:51:56.127 Xcode[238:1976] <IDETestOperationCoordinator: 0x7fe7014e4920>: parseConsoleOutputFromOriginalOutput: called, 132 bytes written out to StandardOutputAndStandardError
+21:51:56.227 Xcode[238:1976] <IDETestOperationCoordinator: 0x7fe7014e4920>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+21:51:56.255 Xcode[238:1976] <IDETestOperationCoordinator: 0x7fe7014e4920>: parseConsoleOutputFromOriginalOutput: called, 94 bytes written out to StandardOutputAndStandardError
+21:51:56.355 Xcode[238:897716] Handling proxy channel request from test runner
+21:51:56.356 Xcode[238:897716] Test runner is ready, running protocol 25, requires at least version 8. Control framework is running 25 and requires at least 8
+21:51:56.356 Xcode[238:1976] Test runner session successfully initiated.
+21:51:56.356 Xcode[238:1976] Creating the daemon control session.
+21:51:56.356 Xcode[238:1976] Whitelisting test process ID 13510
+21:51:56.356 Xcode[238:897837] Sim iPhone 8 Plus: Unregistering for sim device notification with token 99
+21:51:56.356 Xcode[238:1976] Got authorization request for pid 13510
+21:51:56.356 Xcode[238:897837] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+21:51:56.356 Xcode[238:1976] <IDETestOperationCoordinator: 0x7fe7014e4920>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+21:51:56.357 Xcode[238:897837] Sim iPhone 8 Plus has testmanagerd socket at /private/tmp/com.apple.launchd.66KO6ze2lx/com.apple.testmanagerd.unix-domain.socket
+21:51:56.357 Xcode[238:897837] Validating test connection socket path (/private/tmp/com.apple.launchd.66KO6ze2lx/com.apple.testmanagerd.unix-domain.socket)
+21:51:56.357 Xcode[238:897837] Constructing transport for test connection socket
+21:51:56.357 Xcode[238:897837] Connected socket 103 to testmanagerd for Sim iPhone 8 Plus
+21:51:56.358 Xcode[238:896725] Requesting authorization for pid 13510
+21:51:56.364 Xcode[238:896725] Got reply to authorization request for pid 13510 (result:error): 25: (null)
+21:51:56.364 Xcode[238:1976] Got whitelisting response from test daemon. Success: 1
+21:51:56.364 Xcode[238:1976] Registering/updating daemon-based crash report observer for process names (
+    "MyWeatherVersionUITests-Runner",
+    xctest,
+    MyWeatherVersion,
+    XCTRunner
+), report directories: (
+    "/Users/gabrielcortinas/Library/Logs/DiagnosticReports",
+    "/Library/Logs/DiagnosticReports"
+).
+21:24:45.244 testmanagerd[12255:864043] XCIDESession is responsible for cleaning up its socket
+21:24:45.245 testmanagerd[12255:864042] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7fc972f0bd20> (socket 6) created Thursday, May 31, 2018 at 9:24:28 PM Eastern Daylight Time
+21:24:45.246 testmanagerd[12255:864042] Tearing down <XCIDESession: 0x7fc972f0bd20> (socket 6) created Thursday, May 31, 2018 at 9:24:28 PM Eastern Daylight Time.
+21:24:45.246 testmanagerd[12255:864042] Control session closed, will disconnect from matching testing client.
+21:24:45.246 testmanagerd[12255:864042] Session summary: 0 test sessions, 0 sessions with identifiers, 0 unidentified sessions, has control sessions
+21:24:45.247 testmanagerd[12255:864042] Control sessions: (
+    "<XCIDESession: 0x7fc972e2cb00> (socket 8) created Thursday, May 31, 2018 at 9:24:44 PM Eastern Daylight Time"
+)
+21:24:45.248 testmanagerd[12255:864042] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7fc972e2cb00> (socket 8) created Thursday, May 31, 2018 at 9:24:44 PM Eastern Daylight Time
+21:24:45.250 testmanagerd[12255:864042] Tearing down <XCIDESession: 0x7fc972e2cb00> (socket 8) created Thursday, May 31, 2018 at 9:24:44 PM Eastern Daylight Time.
+21:24:45.250 testmanagerd[12255:864042] Control session closed, will disconnect from matching testing client.
+21:24:45.250 testmanagerd[12255:864042] Session summary: 0 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control sessions
+21:51:51.694 testmanagerd[12255:865229] IDE connected over socket 5 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+21:51:51.715 testmanagerd[12255:865229] Created session with socket 5
+21:51:51.735 testmanagerd[12255:865229] Adding <XCIDESession: 0x7fc972c23260> (socket 5) created Thursday, May 31, 2018 at 9:51:51 PM Eastern Daylight Time to the set of unidentified IDE sessions
+21:51:51.737 testmanagerd[12255:898306] Handled a proxy request from the IDE with session <XCIDESession: 0x7fc972c23260> (socket 5) created Thursday, May 31, 2018 at 9:51:51 PM Eastern Daylight Time proxy <_DTXProxy: 0x7fc972e01570>
+21:51:51.756 testmanagerd[12255:836074] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 1F735760-17B2-4A15-99C7-8C7497589423 1 5 from client 77CFEB68-1BA6-49D2-8131-A8964D3613F1-238-000025590F81A23F (/Applications/Xcode.app)
+21:51:51.756 testmanagerd[12255:836074] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 1F735760-17B2-4A15-99C7-8C7497589423 Replied with protocol version 25
+21:51:51.756 testmanagerd[12255:898306] -[XCTDaemon setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7fc972c23260> (socket 5) created Thursday, May 31, 2018 at 9:51:51 PM Eastern Daylight Time for client 77CFEB68-1BA6-49D2-8131-A8964D3613F1-238-000025590F81A23F waiting to pair with test session 1F735760-17B2-4A15-99C7-8C7497589423 -> 1F735760-17B2-4A15-99C7-8C7497589423
+21:51:56.344 testmanagerd[12255:898306] Received new test session connection from process with PID 13510
+21:51:56.345 testmanagerd[12255:898306] Looking up app info for pid 13510
+21:51:56.347 testmanagerd[12255:865229] Test session 1F735760-17B2-4A15-99C7-8C7497589423 requested transport for IDE (-[XCTestSession _XCT_requestSerializedTransportWrapperForIDESessionWithIdentifier:reply:])
+21:51:56.348 testmanagerd[12255:898303] Test session 1F735760-17B2-4A15-99C7-8C7497589423 requested serialized transport (-[XCTDaemon requestSerializedTransportForSessionIdentifier:reply:]_block_invoke)
+21:51:56.348 testmanagerd[12255:865229] Got app info for pid 13510: {
+    BKSApplicationStateAppIsFrontmost = 1;
+    BKSApplicationStateExtensionKey = 0;
+    SBApplicationStateDisplayIDKey = "com.apple.test.MyWeatherVersionUITests-Runner";
+    SBApplicationStateKey = 8;
+    SBApplicationStateProcessIDKey = 13510;
+    SBApplicationStateRunningReasonsKey =     (
+                {
+            SBApplicationStateRunningReasonAssertionIdentifierKey = Resume;
+            SBApplicationStateRunningReasonAssertionReasonKey = 10000;
+        },
+                {
+            SBApplicationStateRunningReasonAssertionIdentifierKey = "Deliver Message";
+            SBApplicationStateRunningReasonAssertionReasonKey = 10001;
+        }
+    );
+    SBMostElevatedStateForProcessID = 8;
+}
+21:51:56.348 testmanagerd[12255:898303] Initiating serialized transport handoff from IDE connection to test host.
+21:51:56.348 testmanagerd[12255:898303] -[XCIDESession closeConnectionAndHandOffTransportWithCompletionHandler:] sending barrier
+21:51:56.348 testmanagerd[12255:898306] Barrier flushed. Cancelling connection. Socket will not be closed
+21:51:56.348 testmanagerd[12255:865229] Got request for process assertion for pid 13510.
+21:51:56.349 testmanagerd[12255:865229] Created process assertion for pid 13510: <BKSProcessAssertion: 0x7fc972e2b900>, waiting for response from assertiond.
+21:51:56.348 testmanagerd[12255:898306] DTXSocketTransport for socket 5 disconnected, owner is <XCIDESession: 0x7fc972c23260> (socket 5) created Thursday, May 31, 2018 at 9:51:51 PM Eastern Daylight Time for client 77CFEB68-1BA6-49D2-8131-A8964D3613F1-238-000025590F81A23F waiting to pair with test session 1F735760-17B2-4A15-99C7-8C7497589423
+21:51:56.348 testmanagerd[12255:898579] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7fc972c23260> (socket 5) created Thursday, May 31, 2018 at 9:51:51 PM Eastern Daylight Time for client 77CFEB68-1BA6-49D2-8131-A8964D3613F1-238-000025590F81A23F waiting to pair with test session 1F735760-17B2-4A15-99C7-8C7497589423
+21:51:56.350 testmanagerd[12255:898579] Tearing down <XCIDESession: 0x7fc972c23260> (socket 5) created Thursday, May 31, 2018 at 9:51:51 PM Eastern Daylight Time for client 77CFEB68-1BA6-49D2-8131-A8964D3613F1-238-000025590F81A23F waiting to pair with test session 1F735760-17B2-4A15-99C7-8C7497589423.
+21:51:56.351 testmanagerd[12255:898579] Session summary: 1 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control sessions
+21:51:56.352 testmanagerd[12255:898303] Got reply for process assertion request, success: YES
+21:51:56.351 testmanagerd[12255:865229] Starting to monitor com.apple.test.MyWeatherVersionUITests-Runner
+21:51:56.352 testmanagerd[12255:898303] Got reply for process assertion request, success: YES
+21:51:56.360 testmanagerd[12255:898303] Got application state update: com.apple.test.MyWeatherVersionUITests-Runner (13510) -> 8
+21:51:56.360 testmanagerd[12255:898303] <XCTestSession: 0x7fc972f14c00> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.apple.test.MyWeatherVersionUITests-Runner 13510 8
+21:51:56.360 testmanagerd[12255:898579] IDE connected over socket 6 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+21:51:56.361 testmanagerd[12255:898579] Created session with socket 6
+21:51:56.361 testmanagerd[12255:898577] Adding <XCIDESession: 0x7fc972f0bd20> (socket 6) created Thursday, May 31, 2018 at 9:51:56 PM Eastern Daylight Time to the set of unidentified IDE sessions
+21:51:56.362 testmanagerd[12255:898303] Handled a proxy request from the IDE with session <XCIDESession: 0x7fc972f0bd20> (socket 6) created Thursday, May 31, 2018 at 9:51:56 PM Eastern Daylight Time proxy <_DTXProxy: 0x7fc972e32fe0>
+21:51:56.363 testmanagerd[12255:898303] -[XCIDESession _IDE_initiateControlSessionForTestProcessID:protocolVersion:] 13510 25
+21:51:56.363 testmanagerd[12255:836074] Adding control session <XCIDESession: 0x7fc972f0bd20> (socket 6) created Thursday, May 31, 2018 at 9:51:56 PM Eastern Daylight Time with protocol version 25
+21:51:56.365 testmanagerd[12255:836074] Received request to collect crash reports in directories '/Users/gabrielcortinas/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'MyWeatherVersionUITests-Runner', 'xctest', 'MyWeatherVersion', 'XCTRunner'
+21:51:56.366 testmanagerd[12255:836074] Initializing crash report observer for /Users/gabrielcortinas/Library/Logs/DiagnosticReports
+21:51:56.366 testmanagerd[12255:836074] Getting files in /Users/gabrielcortinas/Library/Logs/DiagnosticReports
+21:51:56.382 testmanagerd[12255:836074] Found 1 files in /Users/gabrielcortinas/Library/Logs/DiagnosticReports
+21:51:56.382 testmanagerd[12255:836074] Started monitoring /Users/gabrielcortinas/Library/Logs/DiagnosticReports
+21:51:56.382 testmanagerd[12255:836074] Initializing crash report observer for /Library/Logs/DiagnosticReports
+21:51:56.383 testmanagerd[12255:836074] Getting files in /Library/Logs/DiagnosticReports
+21:51:56.448 testmanagerd[12255:836074] Found 148 files in /Library/Logs/DiagnosticReports
+21:51:56.450 Xcode[238:1976] Telling test runner to start executing tests.
+21:51:56.449 testmanagerd[12255:836074] Started monitoring /Library/Logs/DiagnosticReports
+21:51:56.273 MyWeatherVersionUITests-Runner[13510:898488] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built with Xcode 0940(9Q1019a), modified on Thursday, May 17, 2018 at 1:35:22 AM Eastern Daylight Time
+XCTest.framework bundle version: 14100
+21:51:56.274 MyWeatherVersionUITests-Runner[13510:898488] System uptime: 9:27:20
+21:51:56.274 MyWeatherVersionUITests-Runner[13510:898488] Process arguments: (
+    "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data/Containers/Bundle/Application/8540D509-F270-48F3-9379-0B57CFE7B368/MyWeatherVersionUITests-Runner.app/MyWeatherVersionUITests-Runner",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+21:51:56.275 MyWeatherVersionUITests-Runner[13510:898488] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data/Containers/Data/Application/D9592E4C-0F3D-492C-AA52-C8A047FE4973";
+    CLASSIC = 1;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.9UwhF4tzEK/Listeners";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/gabrielcortinas/Desktop/Xcode Examples/NewsForYou/weather/MyWeatherVersion/DerivedData/MyWeatherVersion/Build/Products/Debug-iphonesimulator:/Users/gabrielcortinas/Desktop/Xcode Examples/NewsForYou/weather/MyWeatherVersion/DerivedData/MyWeatherVersion/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+    "DYLD_LIBRARY_PATH" = "/Users/gabrielcortinas/Desktop/Xcode Examples/NewsForYou/weather/MyWeatherVersion/DerivedData/MyWeatherVersion/Build/Products/Debug-iphonesimulator:/Users/gabrielcortinas/Desktop/Xcode Examples/NewsForYou/weather/MyWeatherVersion/DerivedData/MyWeatherVersion/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    HOME = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data/Containers/Data/Application/D9592E4C-0F3D-492C-AA52-C8A047FE4973";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.C88FBC94-57B3-44EE-AB8B-F335396179AA/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data";
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data/Library/Application Support/Simulator/extended_display.plist";
+    "MTC_CRASH_ON_REPORT" = 1;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/local/bin";
+    "RWI_LISTEN_SOCKET" = "/private/tmp/com.apple.launchd.2MCjkOPsjB/com.apple.webinspectord_sim.socket";
+    "SIMULATOR_AUDIO_DEVICES_PLIST_PATH" = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data/var/run/com.apple.coresimulator.audio.plist";
+    "SIMULATOR_AUDIO_SETTINGS_PATH" = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data/var/run/simulatoraudio/audiosettings.plist";
+    "SIMULATOR_BOOT_TIME" = 1527783876;
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 8 Plus.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 8 Plus";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HID_SYSTEM_MANAGER" = "/Library/Developer/PrivateFrameworks/CoreSimulator.framework/Resources/Platforms/iphoneos/Library/Frameworks/SimulatorHID.framework";
+    "SIMULATOR_HOST_HOME" = "/Users/gabrielcortinas";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/gabrielcortinas/Library/Logs/CoreSimulator/C88FBC94-57B3-44EE-AB8B-F335396179AA";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 2208;
+    "SIMULATOR_MAINSCREEN_PITCH" = "461.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "3.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 1242;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone10,5";
+    "SIMULATOR_PRODUCT_CLASS" = D21;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 15F79;
+    "SIMULATOR_RUNTIME_VERSION" = "11.4";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data";
+    "SIMULATOR_UDID" = "C88FBC94-57B3-44EE-AB8B-F335396179AA";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 518.22 - Device: iPhone 8 Plus - Runtime: iOS 11.4 (15F79) - DeviceType: iPhone 8 Plus";
+    "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.66KO6ze2lx/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/gabrielcortinas/Library/Developer/CoreSimulator/Devices/C88FBC94-57B3-44EE-AB8B-F335396179AA/data/Containers/Data/Application/D9592E4C-0F3D-492C-AA52-C8A047FE4973/tmp";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/57/wgbgzwt95b7d7qdvn2d9ff340000gn/T/com.apple.dt.XCTest/IDETestRunSession-F06E220B-1CC0-495E-AB41-AE1A791293B5/MyWeatherVersionUITests-1DA361F7-A629-42C0-97F5-86DA581B5CE6/LaunchSessions/1F735760-17B2-4A15-99C7-8C7497589423/remote-container/tmp/MyWeatherVersionUITests-1F735760-17B2-4A15-99C7-8C7497589423.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.apple.test.MyWeatherVersionUITests-Runner[0x5e02][1557]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.C88FBC94-57B3-44EE-AB8B-F335396179AA";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/gabrielcortinas/Desktop/Xcode Examples/NewsForYou/weather/MyWeatherVersion/DerivedData/MyWeatherVersion/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/gabrielcortinas/Desktop/Xcode Examples/NewsForYou/weather/MyWeatherVersion/DerivedData/MyWeatherVersion/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/gabrielcortinas/Desktop/Xcode Examples/NewsForYou/weather/MyWeatherVersion/DerivedData/MyWeatherVersion/Build/Products/Debug-iphonesimulator";
+}
+21:51:56.275 MyWeatherVersionUITests-Runner[13510:898488] App Sandbox active: NO
+21:51:56.275 MyWeatherVersionUITests-Runner[13510:898488] Loading test bundle at: file:///Users/gabrielcortinas/Desktop/Xcode%20Examples/NewsForYou/weather/MyWeatherVersion/DerivedData/MyWeatherVersion/Build/Products/Debug-iphonesimulator/MyWeatherVersionUITests-Runner.app/PlugIns/MyWeatherVersionUITests.xctest/
+21:51:56.341 MyWeatherVersionUITests-Runner[13510:898488] Finished loading test bundle
+21:51:56.341 MyWeatherVersionUITests-Runner[13510:898488] Readying IDE session
+21:51:56.344 MyWeatherVersionUITests-Runner[13510:898488] Creating future for 'Exchange protocol versions with daemon' with timeout 15.00
+21:51:56.345 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000000ee80, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: (
+    "Exchange protocol versions with daemon"
+)
+21:51:56.346 MyWeatherVersionUITests-Runner[13510:898559] <XCTWaiter: 0x60000000ee80, state: XCTWaiterStateSucceeded>: cancelWaiting
+21:51:56.346 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000000ee80, state: XCTWaiterStateSucceeded> done waiting
+21:51:56.347 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000000ee80, state: XCTWaiterStateSucceeded> cleaning up Exchange protocol versions with daemon
+21:51:56.347 MyWeatherVersionUITests-Runner[13510:898488] Got daemon protocol version 22
+21:51:56.347 MyWeatherVersionUITests-Runner[13510:898488] Requesting IDE connection transport
+21:51:56.348 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000000efe0, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: (
+    "Transport for IDE session acquired"
+)
+21:51:56.350 MyWeatherVersionUITests-Runner[13510:898554] Creating transport with received transport data
+21:51:56.351 MyWeatherVersionUITests-Runner[13510:898565] <XCTWaiter: 0x60000000efe0, state: XCTWaiterStateSucceeded>: cancelWaiting
+21:51:56.352 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000000efe0, state: XCTWaiterStateSucceeded> done waiting
+21:51:56.352 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000000efe0, state: XCTWaiterStateSucceeded> cleaning up Transport for IDE session acquired
+21:51:56.352 MyWeatherVersionUITests-Runner[13510:898488] Creating connection with transport <DTXFileDescriptorTransport: 0x6000000f8a80>
+21:51:56.354 MyWeatherVersionUITests-Runner[13510:898488] Creating the proxy channel with connection <DTXConnection 0x6040001ebc00 : x1>
+21:51:56.354 MyWeatherVersionUITests-Runner[13510:898488] Creating future for 'IDE session ready for test plan' with timeout 60.00
+21:51:56.355 MyWeatherVersionUITests-Runner[13510:898488] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:25 minimumVersion:8
+21:51:56.355 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000000ee80, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: (
+    "IDE session ready for test plan"
+)
+21:51:56.356 MyWeatherVersionUITests-Runner[13510:898559] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+21:51:56.451 MyWeatherVersionUITests-Runner[13510:898554] _IDE_startExecutingTestPlanWithProtocolVersion:25
+21:51:56.451 MyWeatherVersionUITests-Runner[13510:898559] <XCTWaiter: 0x60000000ee80, state: XCTWaiterStateSucceeded>: cancelWaiting
+21:51:56.451 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000000ee80, state: XCTWaiterStateSucceeded> done waiting
+21:51:56.451 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000000ee80, state: XCTWaiterStateSucceeded> cleaning up IDE session ready for test plan
+21:51:56.458 Xcode[238:1976] Starting test plan, clearing initialization timeout timer.
+21:51:56.457 MyWeatherVersionUITests-Runner[13510:898488] Initializing for UI testing.
+21:51:56.463 testmanagerd[12255:865229] Performing block with diagnostics...
+21:51:56.463 MyWeatherVersionUITests-Runner[13510:898488] Linked XCTAutomationSupport.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework/XCTAutomationSupport, built with Xcode 0930(9P107g), modified on Thursday, May 17, 2018 at 1:31:24 AM Eastern Daylight Time
+XCTAutomationSupport.framework bundle version: 0
+21:51:56.463 MyWeatherVersionUITests-Runner[13510:898488] Creating future for 'Loading Accessibility' with timeout 70.00
+21:51:56.463 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x604000010410, state: XCTWaiterStateInProgress> entering wait loop for 70.00s with expectations: (
+    "Loading Accessibility"
+)
+21:51:56.464 testmanagerd[12255:865229] Received request to load Accessibility
+21:51:56.464 testmanagerd[12255:865229] Beginning AX loading sequence.
+21:51:56.470 testmanagerd[12255:865229] Waiting 65.0s for AX to finish loading...
+21:51:56.511 testmanagerd[12255:836074] Received kAXAccessibilityLoaded notification
+21:51:56.515 testmanagerd[12255:865229] Calling AXDisableAccessibilityOnTermination() inside a retry block to handle a race between kAXAccessibilityLoaded and backboardd.
+21:51:56.516 testmanagerd[12255:865229] AXDisableAccessibilityOnTermination() returned 0
+21:51:56.516 testmanagerd[12255:865229] Finished loading AX.
+21:51:56.527 testmanagerd[12255:865229] Initial device orientation 1
+21:51:56.527 testmanagerd[12255:865229] Block succeeded, canceling diagnostics.
+21:51:56.528 MyWeatherVersionUITests-Runner[13510:898553] <XCTWaiter: 0x604000010410, state: XCTWaiterStateSucceeded>: cancelWaiting
+21:51:57.141 Xcode[238:1976] <IDETestOperationCoordinator: 0x7fe7014e4920>: parseConsoleOutputFromOriginalOutput: called, 653 bytes written out to StandardOutputAndStandardError
+21:51:57.241 Xcode[238:1976] <IDETestOperationCoordinator: 0x7fe7014e4920>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+21:51:57.287 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x604000010410, state: XCTWaiterStateSucceeded> done waiting
+21:51:57.287 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x604000010410, state: XCTWaiterStateSucceeded> cleaning up Loading Accessibility
+21:51:57.287 MyWeatherVersionUITests-Runner[13510:898488] Creating future for 'Enable gathering of localized strings' with timeout 70.00
+21:51:57.288 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000000eca0, state: XCTWaiterStateInProgress> entering wait loop for 70.00s with expectations: (
+    "Enable gathering of localized strings"
+)
+21:51:57.288 MyWeatherVersionUITests-Runner[13510:898554] <XCTWaiter: 0x60000000eca0, state: XCTWaiterStateSucceeded>: cancelWaiting
+21:51:57.308 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000000eca0, state: XCTWaiterStateSucceeded> done waiting
+21:51:57.309 testmanagerd[12255:865229] AXUIElementSetMessagingTimeout(<AXUIElementRef 0x7fc972d0fcc0> {pid=0} {uid=[ID:1 hash:0x0]}, 60) -> 0 
+21:51:57.308 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000000eca0, state: XCTWaiterStateSucceeded> cleaning up Enable gathering of localized strings
+21:51:57.308 MyWeatherVersionUITests-Runner[13510:898488] Creating future for 'Set AX timeout to 60.00s' with timeout 65.00
+21:51:57.309 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x604000010770, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Set AX timeout to 60.00s"
+)
+21:51:57.309 MyWeatherVersionUITests-Runner[13510:898558] <XCTWaiter: 0x604000010770, state: XCTWaiterStateSucceeded>: cancelWaiting
+21:51:57.310 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x604000010770, state: XCTWaiterStateSucceeded> done waiting
+21:51:57.310 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x604000010770, state: XCTWaiterStateSucceeded> cleaning up Set AX timeout to 60.00s
+21:51:57.310 MyWeatherVersionUITests-Runner[13510:898488] Creating future for 'Registering for AX notification 4002' with timeout 65.00
+21:51:57.311 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000000f2a0, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Registering for AX notification 4002"
+)
+21:51:57.312 MyWeatherVersionUITests-Runner[13510:898554] <XCTWaiter: 0x60000000f2a0, state: XCTWaiterStateSucceeded>: cancelWaiting
+21:51:57.311 testmanagerd[12255:865229] Registered for AX notification 4002 (0x7fc972f154e0)
+21:51:58.267 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000000f2a0, state: XCTWaiterStateSucceeded> done waiting
+21:51:58.267 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000000f2a0, state: XCTWaiterStateSucceeded> cleaning up Registering for AX notification 4002
+21:51:58.267 MyWeatherVersionUITests-Runner[13510:898488] Creating future for 'Registering for AX notification 1006' with timeout 65.00
+21:51:58.267 testmanagerd[12255:898578] Registered for AX notification 1006 (0x7fc972f154e0)
+21:51:58.267 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x600000019b50, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Registering for AX notification 1006"
+)
+21:51:58.268 MyWeatherVersionUITests-Runner[13510:898553] <XCTWaiter: 0x600000019b50, state: XCTWaiterStateSucceeded>: cancelWaiting
+21:51:58.272 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x600000019b50, state: XCTWaiterStateSucceeded> done waiting
+21:51:58.272 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x600000019b50, state: XCTWaiterStateSucceeded> cleaning up Registering for AX notification 1006
+21:51:58.273 testmanagerd[12255:865229] Registered for AX notification 1021 (0x7fc972f154e0)
+21:51:58.272 MyWeatherVersionUITests-Runner[13510:898488] Creating future for 'Registering for AX notification 1021' with timeout 65.00
+21:51:58.273 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x600000019d50, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "Registering for AX notification 1021"
+)
+21:51:58.273 MyWeatherVersionUITests-Runner[13510:898565] <XCTWaiter: 0x600000019d50, state: XCTWaiterStateSucceeded>: cancelWaiting
+21:51:58.274 testmanagerd[12255:898578] Got request for process assertion for pid 13510.
+21:51:58.273 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x600000019d50, state: XCTWaiterStateSucceeded> done waiting
+21:51:58.273 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x600000019d50, state: XCTWaiterStateSucceeded> cleaning up Registering for AX notification 1021
+21:51:58.273 MyWeatherVersionUITests-Runner[13510:898488] Creating future for 'Request background assertion for test process' with timeout 30.00
+21:51:58.274 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000001afd0, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: (
+    "Request background assertion for test process"
+)
+21:51:58.275 MyWeatherVersionUITests-Runner[13510:898558] Got reply for background assertion for test process, acquired: YES.
+21:51:58.275 MyWeatherVersionUITests-Runner[13510:898553] <XCTWaiter: 0x60000001afd0, state: XCTWaiterStateSucceeded>: cancelWaiting
+21:51:58.274 testmanagerd[12255:898578] Invalidating previous process assertion for pid 13510.
+21:51:58.276 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000001afd0, state: XCTWaiterStateSucceeded> done waiting
+21:51:58.276 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000001afd0, state: XCTWaiterStateSucceeded> cleaning up Request background assertion for test process
+21:51:58.276 MyWeatherVersionUITests-Runner[13510:898488] Registering for UIApplicationDidEnterBackgroundNotification
+21:51:58.276 MyWeatherVersionUITests-Runner[13510:898488] Hitting home button to enter background.
+21:51:58.275 testmanagerd[12255:898578] Created process assertion for pid 13510: <BKSProcessAssertion: 0x7fc972e28600>, waiting for response from assertiond.
+21:51:58.275 testmanagerd[12255:898303] Got reply for process assertion request, success: YES
+21:51:58.275 testmanagerd[12255:898303] Got reply for process assertion request, success: YES
+21:51:58.276 MyWeatherVersionUITests-Runner[13510:898488] Creating future for 'Perform device event' with timeout 30.00
+21:51:58.278 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000001c300, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: (
+    "Perform device event"
+)
+21:51:58.278 testmanagerd[12255:898306] Performing <XCDeviceEvent:0x7fc972f01f60 page 12 usage 64 duration 0.01s
+21:51:58.279 testmanagerd[12255:898579] Sleeping for 0.005000s before sending up event
+21:51:58.284 testmanagerd[12255:898579] Waiting for device event confirmation.
+21:51:58.293 Xcode[238:1976] <IDETestOperationCoordinator: 0x7fe7014e4920>: parseConsoleOutputFromOriginalOutput: called, 134 bytes written out to StandardOutputAndStandardError
+21:51:58.299 testmanagerd[12255:836074] AX Notification 1021 (0x7fc972f154e0)
+21:51:58.299 testmanagerd[12255:836074] Calling handler for AX notification 1021:{
+    pid = 13510;
+    "tentative-suspended" = 1;
+}
+21:51:58.301 MyWeatherVersionUITests-Runner[13510:898554] Got AX notification 1021
+21:51:58.301 MyWeatherVersionUITests-Runner[13510:898554] Got kAXPidStatusChangedNotification for 13510: active
+21:51:58.312 MyWeatherVersionUITests-Runner[13510:898554] Got AX notification 4002
+21:51:58.312 testmanagerd[12255:836074] AX Notification 4002 (0x7fc972f154e0)
+21:51:58.312 testmanagerd[12255:836074] Calling handler for AX notification 4002:{
+    event = ButtonEventsCompleted;
+}
+21:51:58.312 testmanagerd[12255:836074] Got user testing notification with payload {
+    event = ButtonEventsCompleted;
+}
+21:51:58.312 testmanagerd[12255:836074] Signaling device event confirmed by AX notification.
+21:51:58.312 testmanagerd[12255:898579] Gesture complete, replying to client.
+21:51:58.314 MyWeatherVersionUITests-Runner[13510:898558] <XCTWaiter: 0x60000001c300, state: XCTWaiterStateSucceeded>: cancelWaiting
+21:51:58.314 MyWeatherVersionUITests-Runner[13510:898488] No application process found matching pid 13510, caching
+21:51:58.314 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000001c300, state: XCTWaiterStateSucceeded> done waiting
+21:51:58.314 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000001c300, state: XCTWaiterStateSucceeded> cleaning up Perform device event
+21:51:58.314 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000001c840, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: (
+    "Expect notification 'UIApplicationDidEnterBackgroundNotification' from any object"
+)
+21:51:58.394 Xcode[238:1976] <IDETestOperationCoordinator: 0x7fe7014e4920>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+21:51:58.868 MyWeatherVersionUITests-Runner[13510:898553] <XCTWaiter: 0x60000001c840, state: XCTWaiterStateSucceeded>: cancelWaiting
+21:51:58.873 testmanagerd[12255:898303] Got application state update: com.apple.test.MyWeatherVersionUITests-Runner (13510) -> 4
+21:51:58.873 testmanagerd[12255:898579] <XCTestSession: 0x7fc972f14c00> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.apple.test.MyWeatherVersionUITests-Runner 13510 4
+21:51:58.905 testmanagerd[12255:836074] AX Notification 4002 (0x7fc972f154e0)
+21:51:58.912 MyWeatherVersionUITests-Runner[13510:898558] Got AX notification 4002
+21:51:58.909 testmanagerd[12255:836074] Calling handler for AX notification 4002:{
+    controllerClass = SBMainWorkspaceApplicationSceneLayoutElementViewController;
+    event = ViewDidDisappear;
+}
+21:51:58.912 testmanagerd[12255:836074] Got user testing notification with payload {
+    controllerClass = SBMainWorkspaceApplicationSceneLayoutElementViewController;
+    event = ViewDidDisappear;
+}
+21:51:58.912 testmanagerd[12255:836074] AX Notification 4002 (0x7fc972f154e0)
+21:51:58.913 MyWeatherVersionUITests-Runner[13510:898558] Got AX notification 4002
+21:51:58.913 testmanagerd[12255:836074] Calling handler for AX notification 4002:{
+    controllerClass = SBDeviceApplicationSceneViewController;
+    event = ViewDidDisappear;
+}
+21:51:58.913 testmanagerd[12255:836074] Got user testing notification with payload {
+    controllerClass = SBDeviceApplicationSceneViewController;
+    event = ViewDidDisappear;
+}
+21:51:58.915 testmanagerd[12255:836074] AX Notification 1021 (0x7fc972f154e0)
+21:51:58.915 MyWeatherVersionUITests-Runner[13510:898554] Got AX notification 1021
+21:51:58.916 MyWeatherVersionUITests-Runner[13510:898554] Got kAXPidStatusChangedNotification for 13510: suspended
+21:51:58.915 testmanagerd[12255:836074] Calling handler for AX notification 1021:{
+    pid = 13510;
+    suspended = 1;
+}
+21:51:58.917 MyWeatherVersionUITests-Runner[13510:898565] Got AX notification 4002
+21:51:58.919 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000001c840, state: XCTWaiterStateSucceeded> done waiting
+21:51:58.915 testmanagerd[12255:836074] AX Notification 4002 (0x7fc972f154e0)
+21:51:58.916 testmanagerd[12255:836074] Calling handler for AX notification 4002:{
+    controllerClass = SBMainSwitcherViewController;
+    event = ViewDidDisappear;
+}
+21:51:58.917 testmanagerd[12255:836074] Got user testing notification with payload {
+    controllerClass = SBMainSwitcherViewController;
+    event = ViewDidDisappear;
+}
+21:51:58.930 testmanagerd[12255:836074] AX Notification 4002 (0x7fc972f154e0)
+21:51:58.930 testmanagerd[12255:836074] Calling handler for AX notification 4002:{
+    controllerClass = SBDeckSwitcherViewController;
+    event = ViewDidDisappear;
+}
+21:51:58.930 testmanagerd[12255:836074] Got user testing notification with payload {
+    controllerClass = SBDeckSwitcherViewController;
+    event = ViewDidDisappear;
+}
+21:51:58.919 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000001c840, state: XCTWaiterStateSucceeded> cleaning up Expect notification 'UIApplicationDidEnterBackgroundNotification' from any object
+21:51:58.919 MyWeatherVersionUITests-Runner[13510:898488] Done initializing for UI testing.
+21:51:58.919 MyWeatherVersionUITests-Runner[13510:898488] Loading test suite...
+21:51:59.009 MyWeatherVersionUITests-Runner[13510:898558] Got AX notification 4002
+21:51:59.014 MyWeatherVersionUITests-Runner[13510:898488] Finished loading test suite, took 0.095s
+21:51:59.015 MyWeatherVersionUITests-Runner[13510:898488] -[XCTRunnerIDESession testBundleWillStart:]
+21:51:59.015 MyWeatherVersionUITests-Runner[13510:898488] Running suite...
+21:51:59.016 Xcode[238:1976] <IDETestOperationCoordinator: 0x7fe7014e4920>: parseConsoleOutputFromOriginalOutput: called, 58 bytes written out to StandardOutputAndStandardError
+2018-05-31 21:51:56.126128-0400 MyWeatherVersionUITests-Runner[13510:898488] +[CATransaction synchronize] called within transaction
+2018-05-31 21:51:56.254850-0400 MyWeatherVersionUITests-Runner[13510:898488] Running tests...
+objc[13510]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x129cf54d0) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/AVConference (0x128e21e38). One of the two will be used. Which one is undefined.
+2018-05-31 21:51:58.289918-0400 MyWeatherVersionUITests-Runner[13510:898488] Continuing to run tests in the background with task ID 1
+Test Suite 'All tests' started at 2018-05-31 21:51:59.015
+21:51:59.016 Xcode[238:1976] <IDETestOperationCoordinator: 0x7fe7014e4920>: parseConsoleOutputFromOriginalOutput: called, 79 bytes written out to StandardOutputAndStandardError
+21:51:59.015 MyWeatherVersionUITests-Runner[13510:898488] -[XCTRunnerIDESession testSuiteWillStart:]
+21:51:59.016 Xcode[238:1976] _XCT_testSuite:All tests didStartAt:2018-06-01 01:51:59 +0000
+21:52:02.997 Xcode[238:897764] (LOG ARBITER) Rotating message buffer with 359 messages.
+21:52:05.191 Xcode[238:897905] (LOG ARBITER) Rotating message buffer with 72 messages.
+21:52:06.343 Xcode[238:897905] (LOG ARBITER) Dumping buffered message data; 431 messages.
+21:52:06.132 MyWeatherVersionUITests-Runner[13510:898488] application launched and quiesced
+21:52:06.132 MyWeatherVersionUITests-Runner[13510:898488] -[MyWeatherVersionUITests testExample] finished activity <XCActivityRecord: 0x604000489740> 2018-06-01 01:51:59 +0000: Launch com.MrCortinas.Corp.Sunshine (6.96549s)
+21:52:06.134 Xcode[238:1976] -[MyWeatherVersionUITests.MyWeatherVersionUITests testExample] did finish activity 791A25A3-EEA4-4DF3-9E9C-B0986B6A7B8C:'Launch com.MrCortinas.Corp.Sunshine'
+21:52:06.133 MyWeatherVersionUITests-Runner[13510:898488] -[MyWeatherVersionUITests testExample] finished activity <XCActivityRecord: 0x600000887c10> 2018-06-01 01:51:59 +0000: Open com.MrCortinas.Corp.Sunshine (7.04218s)
+21:52:06.137 Xcode[238:1976] <IDETestOperationCoordinator: 0x7fe7014e4920>: parseConsoleOutputFromOriginalOutput: called, 28 bytes written out to StandardOutputAndStandardError
+21:52:06.146 Xcode[238:1976] -[MyWeatherVersionUITests.MyWeatherVersionUITests testExample] did finish activity 90FF3AA8-AF74-4B32-B248-2253DABA18A9:'Open com.MrCortinas.Corp.Sunshine'
+21:52:06.135 MyWeatherVersionUITests-Runner[13510:898488] -[MyWeatherVersionUITests testExample] finished activity <XCActivityRecord: 0x6040004890b0> 2018-06-01 01:51:59 +0000: Set Up (7.05093s)
+21:52:06.148 Xcode[238:1976] -[MyWeatherVersionUITests.MyWeatherVersionUITests testExample] did finish activity 17D2898E-955B-40BB-AE69-88D22AE20904:'Set Up'
+21:52:06.136 MyWeatherVersionUITests-Runner[13510:898488] -[MyWeatherVersionUITests testExample] started activity <XCActivityRecord: 0x600000887440> 2018-06-01 01:52:06 +0000: Tear Down
+21:52:06.148 Xcode[238:1976] -[MyWeatherVersionUITests.MyWeatherVersionUITests testExample] will start activity 1C75B10C-F69F-4FD6-960F-ABC25A518D1B:'Tear Down'
+21:52:06.137 MyWeatherVersionUITests-Runner[13510:898488] -[MyWeatherVersionUITests testExample] finished activity <XCActivityRecord: 0x600000887440> 2018-06-01 01:52:06 +0000: Tear Down (0.000643015s)
+21:52:06.148 Xcode[238:1976] -[MyWeatherVersionUITests.MyWeatherVersionUITests testExample] did finish activity 1C75B10C-F69F-4FD6-960F-ABC25A518D1B:'Tear Down'
+21:52:06.137 MyWeatherVersionUITests-Runner[13510:898617] Monitor: termination is being tracked for <XCUIApplicationProcess: 0x6040002c9680 com.MrCortinas.Corp.Sunshine (13516)>
+21:52:06.138 MyWeatherVersionUITests-Runner[13510:898488] Monitor: waiting for state changes to launched application(s): <XCUIApplicationProcess: 0x6040002c9680 com.MrCortinas.Corp.Sunshine (13516)>
+21:52:06.138 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000001c950, state: XCTWaiterStateInProgress> entering wait loop for 0.20s with expectations: (
+    "Expect change to state of <XCUIApplicationProcess: 0x6040002c9680 com.MrCortinas.Corp.Sunshine (13516)>"
+)
+21:52:06.238 Xcode[238:1976] <IDETestOperationCoordinator: 0x7fe7014e4920>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+21:52:06.341 Xcode[238:1976] <IDETestOperationCoordinator: 0x7fe7014e4920>: parseConsoleOutputFromOriginalOutput: called, 99 bytes written out to StandardOutputAndStandardError
+21:52:06.339 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000001c950, state: XCTWaiterStateInProgress> done waiting
+21:52:06.340 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60000001c950, state: XCTWaiterStateSucceeded> cleaning up Expect change to state of <XCUIApplicationProcess: 0x6040002c9680 com.MrCortinas.Corp.Sunshine (13516)>
+    t =     0.00s Start Test at 2018-05-31 21:51:59.017
+    t =     0.07s Set Up
+    t =     0.07s     Open com.MrCortinas.Corp.Sunshine
+    t =     0.15s         Launch com.MrCortinas.Corp.Sunshine
+    t =     3.71s             Wait for com.MrCortinas.Corp.Sunshine to idle
+    t =     7.12s Tear Down
+Test Case '-[MyWeatherVersionUITests.MyWeatherVersionUITests testExample]' passed (7.324 seconds).
+21:52:06.342 Xcode[238:1976] <IDETestOperationCoordinator: 0x7fe7014e4920>: parseConsoleOutputFromOriginalOutput: called, 147 bytes written out to StandardOutputAndStandardError
+21:52:06.340 MyWeatherVersionUITests-Runner[13510:898488] Monitor: done waiting for state changes to launched application(s)
+21:52:06.341 MyWeatherVersionUITests-Runner[13510:898488] -[XCTRunnerIDESession testCaseDidFinish:]
+21:52:06.343 Xcode[238:1976] _XCT_testCaseDidFinishForTestClass:MyWeatherVersionUITests.MyWeatherVersionUITests method:testExample withStatus:passed duration:7.324190974235535
+Test Suite 'MyWeatherVersionUITests' passed at 2018-05-31 21:52:06.341.
+	 Executed 1 test, with 0 failures (0 unexpected) in 7.324 (7.325) seconds
+21:52:06.354 Xcode[238:1976] <IDETestOperationCoordinator: 0x7fe7014e4920>: parseConsoleOutputFromOriginalOutput: called, 154 bytes written out to StandardOutputAndStandardError
+Test Suite 'MyWeatherVersionUITests.xctest' passed at 2018-05-31 21:52:06.343.
+	 Executed 1 test, with 0 failures (0 unexpected) in 7.324 (7.327) seconds
+21:52:06.361 Xcode[238:1976] <IDETestOperationCoordinator: 0x7fe7014e4920>: parseConsoleOutputFromOriginalOutput: called, 133 bytes written out to StandardOutputAndStandardError
+21:52:06.341 MyWeatherVersionUITests-Runner[13510:898488] -[XCTRunnerIDESession testSuiteDidFinish:]
+21:52:06.371 Xcode[238:1976] _XCT_testSuite:MyWeatherVersionUITests didFinishAt:2018-06-01 01:52:06 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:7.324190974235535 totalDuration:7.325234055519104
+21:52:06.342 MyWeatherVersionUITests-Runner[13510:898488] Activity statistics for MyWeatherVersionUITests:
+21:52:06.342 MyWeatherVersionUITests-Runner[13510:898488] 0.15s : Other
+21:52:06.342 MyWeatherVersionUITests-Runner[13510:898488] 2.35s : Wait for com.MrCortinas.Corp.Sunshine to idle
+21:52:06.342 MyWeatherVersionUITests-Runner[13510:898488] 4.61s : Launch com.MrCortinas.Corp.Sunshine
+21:52:06.343 MyWeatherVersionUITests-Runner[13510:898488] Total time in activities: 7.12s
+21:52:06.343 MyWeatherVersionUITests-Runner[13510:898488] -[XCTRunnerIDESession testSuiteDidFinish:]
+21:52:06.371 Xcode[238:1976] _XCT_testSuite:MyWeatherVersionUITests.xctest didFinishAt:2018-06-01 01:52:06 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:7.324190974235535 totalDuration:7.327072978019714
+21:52:06.344 MyWeatherVersionUITests-Runner[13510:898488] Activity statistics for MyWeatherVersionUITests.xctest:
+21:52:06.344 MyWeatherVersionUITests-Runner[13510:898488] 0.15s : Other
+21:52:06.344 MyWeatherVersionUITests-Runner[13510:898488] 2.35s : Wait for com.MrCortinas.Corp.Sunshine to idle
+21:52:06.344 MyWeatherVersionUITests-Runner[13510:898488] 4.61s : Launch com.MrCortinas.Corp.Sunshine
+21:52:06.345 MyWeatherVersionUITests-Runner[13510:898488] Total time in activities: 7.12s
+21:52:06.345 MyWeatherVersionUITests-Runner[13510:898488] -[XCTRunnerIDESession testSuiteDidFinish:]
+21:52:06.371 Xcode[238:1976] _XCT_testSuite:All tests didFinishAt:2018-06-01 01:52:06 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:7.324190974235535 totalDuration:7.330538988113403
+21:52:06.346 MyWeatherVersionUITests-Runner[13510:898488] Activity statistics for All tests:
+21:52:06.346 MyWeatherVersionUITests-Runner[13510:898488] 0.15s : Other
+21:52:06.346 MyWeatherVersionUITests-Runner[13510:898488] 2.35s : Wait for com.MrCortinas.Corp.Sunshine to idle
+21:52:06.347 MyWeatherVersionUITests-Runner[13510:898488] 4.61s : Launch com.MrCortinas.Corp.Sunshine
+21:52:06.348 MyWeatherVersionUITests-Runner[13510:898488] Total time in activities: 7.12s
+21:52:06.348 MyWeatherVersionUITests-Runner[13510:898488] Finished running suite.
+21:52:06.348 MyWeatherVersionUITests-Runner[13510:898488] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+21:52:06.371 Xcode[238:1976] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+21:52:06.349 MyWeatherVersionUITests-Runner[13510:898488] Calling completion.
+21:52:06.349 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60400000f410, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: (
+    "IDE confirmed the end of session"
+)
+21:52:06.388 Xcode[238:1976] <IDEExecutionOperationTracker: 0x7fe7194297c0: Launch application com.MrCortinas.Corp.Sunshine for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7fe7008280f0: subtrackers=none>"
+)> is not finished
+21:52:06.406 Xcode[238:896725] Closing socket 95 to testmanagerd for Sim iPhone 8 Plus
+21:52:06.413 Xcode[238:1976] <IDEExecutionOperationTracker: 0x7fe7194297c0: Launch application com.MrCortinas.Corp.Sunshine for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7fe7008280f0: subtrackers=none>"
+)> is not finished
+21:52:06.413 Xcode[238:1976] Test process exited with exit code 0
+21:52:06.422 Xcode[238:1976] Claim LaunchSessionClaim_0x7fe702a1f650 on simulator C88FBC94-57B3-44EE-AB8B-F335396179AA was relinquished
+21:52:06.422 Xcode[238:1976] Claim LaunchSessionClaim_0x7fe702a1f650 on simulator C88FBC94-57B3-44EE-AB8B-F335396179AA was relinquished
+21:52:06.433 Xcode[238:1976] <IDEExecutionOperationTracker: 0x7fe7194297c0: Launch application com.MrCortinas.Corp.Sunshine for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7fe7008280f0: subtrackers=none>"
+)> is not finished
+Test Suite 'All tests' passed at 2018-05-31 21:52:06.345.
+	 Executed 1 test, with 0 failures (0 unexpected) in 7.324 (7.331) seconds
+21:52:06.462 Xcode[238:1976] <IDETestOperationCoordinator: 0x7fe7014e4920>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+21:52:06.526 Xcode[238:1976] <IDEExecutionOperationTracker: 0x7fe7194297c0: Launch application com.MrCortinas.Corp.Sunshine for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7fe7008280f0: subtrackers=none>"
+)> is not finished
+21:52:06.536 Xcode[238:1976] <IDEExecutionOperationTracker: 0x7fe7194297c0: Launch application com.MrCortinas.Corp.Sunshine for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7fe7008280f0: subtrackers=none>"
+)> is not finished
+21:52:06.536 Xcode[238:1976] <IDEExecutionOperationTracker: 0x7fe7194297c0: Launch application com.MrCortinas.Corp.Sunshine for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7fe7008280f0: subtrackers=none>"
+)> is not finished
+21:52:06.536 Xcode[238:1976] <IDEExecutionOperationTracker: 0x7fe7194297c0: Launch application com.MrCortinas.Corp.Sunshine for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7fe7008280f0: subtrackers=none>"
+)> is not finished
+21:52:06.545 Xcode[238:1976] Claim LaunchSessionClaim_0x7fe700b9bf90 on simulator C88FBC94-57B3-44EE-AB8B-F335396179AA was relinquished
+21:52:06.545 Xcode[238:1976] Claim LaunchSessionClaim_0x7fe700b9bf90 on simulator C88FBC94-57B3-44EE-AB8B-F335396179AA was relinquished
+21:52:06.546 Xcode[238:1976] <IDEExecutionOperationTracker: 0x7fe7194297c0: Launch application com.MrCortinas.Corp.Sunshine for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7fe7008280f0: subtrackers=none>"
+)> is not finished
+21:52:06.557 Xcode[238:1976] Observed termination of tracker for token 4 for launch of com.MrCortinas.Corp.Sunshine at /Users/gabrielcortinas/Desktop/Xcode Examples/NewsForYou/weather/MyWeatherVersion/DerivedData/MyWeatherVersion/Build/Products/Debug-iphonesimulator/MyWeatherVersion.app
+21:52:06.371 MyWeatherVersionUITests-Runner[13510:898617] <XCTWaiter: 0x60400000f410, state: XCTWaiterStateSucceeded>: cancelWaiting
+21:52:06.371 MyWeatherVersionUITests-Runner[13510:898488] <XCTWaiter: 0x60400000f410, state: XCTWaiterStateSucceeded> done waiting
+21:52:06.380 testmanagerd[12255:898303] Test process connection invalidated or interrupted, closing test session <XCTestSession: 0x7fc972f14c00>.
+21:52:06.574 Xcode[238:1976] Got death notice for pid 13510, removing from SimulatorSessionMap
+21:52:06.574 Xcode[238:1976] Checking to see if pid 13516 is valid: kill(pid, 0) = -1 (NO, it's dead)
+21:52:06.574 Xcode[238:1976] Removing 13516 (dead) from SimulatorSessionMap
+21:52:06.381 testmanagerd[12255:898303] Closed <XCTestSession: 0x7fc972f14c00>, removing from (
+    "<XCTestSession: 0x7fc972f14c00>"
+)
+21:52:06.381 testmanagerd[12255:898303] Tearing down <XCTestSession: 0x7fc972f14c00>.
+21:52:06.381 testmanagerd[12255:898303] XCTestSession is responsible for cleaning up its socket from an XCIDESession
+21:52:06.381 testmanagerd[12255:898303] Tearing down <XCTDApplicationMonitor: 0x7fc972f0da00>.
+21:52:06.382 testmanagerd[12255:898303] Tearing down <XCTDProcessAssertionManager: 0x7fc972d26910>.
+21:52:06.382 testmanagerd[12255:898303] Tearing down <XCTDApplicationLauncher: 0x7fc972e32fa0>.
+21:52:06.383 testmanagerd[12255:898303] Tearing down <XCTDSiriInterface: 0x7fc972f03f60>.
+21:52:06.383 testmanagerd[12255:898303] Invalidating <XCAXManager_iOS: 0x7fc972f154e0>
+21:52:06.383 testmanagerd[12255:898303] Invalidated <XCTDAccessibilitySessionToken: 0x7fc972d285e0>. Remaining XCTDAccessibilitySessionToken instances: {(
+)}
+21:52:06.383 testmanagerd[12255:898303] Unloading accessibility
+21:52:06.383 testmanagerd[12255:898303] Turning off automation
+21:52:06.402 testmanagerd[12255:898303] Session summary: 0 test sessions, 0 sessions with identifiers, 0 unidentified sessions, has control sessions
+21:52:06.402 testmanagerd[12255:898303] Control sessions: (
+    "<XCIDESession: 0x7fc972f0bd20> (socket 6) created Thursday, May 31, 2018 at 9:51:56 PM Eastern Daylight Time"
+)
+21:52:06.513 testmanagerd[12255:898615] Connection to target invalidated.
+21:52:06.513 testmanagerd[12255:898615] Closed <XCTTargetBootstrapSession: 0x7fc972d1b690>(pid 13516), removing from {
+    13516 = "<XCTTargetBootstrapSession: 0x7fc972d1b690>(pid 13516)";
+}
+21:52:06.575 Xcode[238:1976] Got death notice for pid 13516, removing from SimulatorSessionMap
+21:52:06.667 Xcode[238:1976] <IDETestOperationCoordinator: 0x7fe7014e4920> finished receiving data from <IDEConsoleAdaptor: 0x7fe700809ff0 'target' stdin: (null) 0 stdout: (null) 0 stderr: (null) 0>
+21:52:06.667 Xcode[238:1976] <IDETestOperationCoordinator: 0x7fe7014e4920>: _considerFlushingDelegateBlockQueue - nothing to flush
+21:52:06.667 Xcode[238:1976] _finishWithError:(null)

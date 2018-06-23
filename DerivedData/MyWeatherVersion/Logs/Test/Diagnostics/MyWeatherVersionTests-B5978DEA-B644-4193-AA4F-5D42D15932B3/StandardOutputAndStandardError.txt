@@ -1,0 +1,8 @@
+2018-05-31 20:54:57.187403-0400 MyWeatherVersion[12507:844615] This app has attempted to access privacy-sensitive data without a usage description. The app's Info.plist must contain an NSLocationWhenInUseUsageDescription key with a string value explaining to the user how the app uses this data
+2018-05-31 20:54:57.226769-0400 MyWeatherVersion[12507:844615] [Graphics] UIColor created with component values far outside the expected range. Set a breakpoint on UIColorBreakForOutOfRangeColorComponents to debug. This message will only be logged once.
+2018-05-31 20:54:57.233321-0400 MyWeatherVersion[12507:844615] This app has attempted to access privacy-sensitive data without a usage description. The app's Info.plist must contain an NSLocationWhenInUseUsageDescription key with a string value explaining to the user how the app uses this data
+2018-05-31 20:54:57.241109-0400 MyWeatherVersion[12507:844615] This app has attempted to access privacy-sensitive data without a usage description. The app's Info.plist must contain an NSLocationWhenInUseUsageDescription key with a string value explaining to the user how the app uses this data
+Test Suite 'All tests' started at 2018-05-31 20:54:57.389
+Test Suite 'MyWeatherVersionTests.xctest' started at 2018-05-31 20:54:57.390
+Test Suite 'MyWeatherVersionTests' started at 2018-05-31 20:54:57.390
+Test Case '-[MyWeatherVersionTests.MyWeatherVersionTests testEmptyConfigurationData]' started.

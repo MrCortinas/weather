@@ -1,0 +1,21 @@
+2018-05-31 21:51:56.126128-0400 MyWeatherVersionUITests-Runner[13510:898488] +[CATransaction synchronize] called within transaction
+2018-05-31 21:51:56.254850-0400 MyWeatherVersionUITests-Runner[13510:898488] Running tests...
+objc[13510]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x129cf54d0) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/AVConference (0x128e21e38). One of the two will be used. Which one is undefined.
+2018-05-31 21:51:58.289918-0400 MyWeatherVersionUITests-Runner[13510:898488] Continuing to run tests in the background with task ID 1
+Test Suite 'All tests' started at 2018-05-31 21:51:59.015
+Test Suite 'MyWeatherVersionUITests.xctest' started at 2018-05-31 21:51:59.016
+Test Suite 'MyWeatherVersionUITests' started at 2018-05-31 21:51:59.016
+Test Case '-[MyWeatherVersionUITests.MyWeatherVersionUITests testExample]' started.
+    t =     0.00s Start Test at 2018-05-31 21:51:59.017
+    t =     0.07s Set Up
+    t =     0.07s     Open com.MrCortinas.Corp.Sunshine
+    t =     0.15s         Launch com.MrCortinas.Corp.Sunshine
+    t =     3.71s             Wait for com.MrCortinas.Corp.Sunshine to idle
+    t =     7.12s Tear Down
+Test Case '-[MyWeatherVersionUITests.MyWeatherVersionUITests testExample]' passed (7.324 seconds).
+Test Suite 'MyWeatherVersionUITests' passed at 2018-05-31 21:52:06.341.
+	 Executed 1 test, with 0 failures (0 unexpected) in 7.324 (7.325) seconds
+Test Suite 'MyWeatherVersionUITests.xctest' passed at 2018-05-31 21:52:06.343.
+	 Executed 1 test, with 0 failures (0 unexpected) in 7.324 (7.327) seconds
+Test Suite 'All tests' passed at 2018-05-31 21:52:06.345.
+	 Executed 1 test, with 0 failures (0 unexpected) in 7.324 (7.331) seconds

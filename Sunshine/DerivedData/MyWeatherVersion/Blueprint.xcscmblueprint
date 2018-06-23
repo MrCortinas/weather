@@ -1,0 +1,22 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "237C16F2A9A61AA4D400D587FDDE89ECD9FBA162" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5A2B83B3-74AC-487A-808F-015B49396273",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "237C16F2A9A61AA4D400D587FDDE89ECD9FBA162" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MyWeatherVersion",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MyWeatherVersion.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MrCortinas\/weather.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "237C16F2A9A61AA4D400D587FDDE89ECD9FBA162"
+    }
+  ]
+}
